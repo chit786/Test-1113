@@ -8,7 +8,7 @@ xlr {
   template('TEmplate 1 (2)') {
     folder('f2')
     scheduledStartDate Date.parse("yyyy-MM-dd'T'HH:mm:ssZ", '2018-05-23T09:00:00+0200')
-    scmConnectorConfig scmConnectorConfig1
+//    scmConnectorConfig scmConnectorConfig1
     phases {
       phase('New Phase') {
         tasks {
