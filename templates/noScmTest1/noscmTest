@@ -1,12 +1,52 @@
 // Exported from:        http://44c9647b4ea2:5516/#/templates/Folder73b081e48ae84e3aa5a539f292e610d0-Release1969cad61d524d4b9338a4a98e0aa966/releasefile
 // XL Release version:   8.1.0-rc.3
-// Date created:         Thu Jun 14 13:06:20 UTC 2018
+// Date created:         Thu Jun 14 13:07:16 UTC 2018
 
 xlr {
   template('template') {
     folder('f1')
     scheduledStartDate Date.parse("yyyy-MM-dd'T'HH:mm:ssZ", '2018-06-14T07:00:00+0000')
     phases {
+      phase('New Phase') {
+        color '#991C71'
+        tasks {
+          manual('T1') {
+            
+          }
+          parallelGroup('T2') {
+            tasks {
+              manual('asd') {
+                
+              }
+              manual('asfd') {
+                
+              }
+            }
+          }
+        }
+      }
+      phase('New Phase') {
+        color '#FD8D10'
+        tasks {
+          manual('T1') {
+            
+          }
+          manual('T2') {
+            
+          }
+        }
+      }
+      phase('New Phase') {
+        color '#999999'
+        tasks {
+          manual('T1') {
+            
+          }
+          manual('T2') {
+            
+          }
+        }
+      }
       phase('New Phase') {
         tasks {
           manual('T1') {
