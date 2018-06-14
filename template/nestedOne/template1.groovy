@@ -1,6 +1,6 @@
-// Exported from:        http://44c9647b4ea2:5516/#/templates/Folder73b081e48ae84e3aa5a539f292e610d0-Release5ca1824725374764ae57a98ce7cf540b/releasefile
+// Exported from:        http://44c9647b4ea2:5516/#/templates/Folder73b081e48ae84e3aa5a539f292e610d0-Folder48d52b1f64ae4c2ea7597d1be829e1dd-Release5ca1824725374764ae57a98ce7cf540b/releasefile
 // XL Release version:   8.1.0-rc.3
-// Date created:         Thu Jun 14 12:19:23 UTC 2018
+// Date created:         Thu Jun 14 12:29:44 UTC 2018
 
 def server(type, title, folderPath = null) {
     def folderId = null
@@ -23,7 +23,7 @@ def jumpstation3 = server('remoteScript.SshJumpstation','JUmp Station 1','f1')
 
 xlr {
   template('templae1') {
-    folder('f1')
+    folder('f1/f2')
     scheduledStartDate Date.parse("yyyy-MM-dd'T'HH:mm:ssZ", '2018-06-14T07:00:00+0000')
     phases {
       phase('New Phase') {
